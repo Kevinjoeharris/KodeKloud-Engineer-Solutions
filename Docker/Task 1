@@ -1,0 +1,1 @@
+docker run -d --name nginx_3 nginx:alpine
