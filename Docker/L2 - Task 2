@@ -1,0 +1,3 @@
+cat /etc/passwd    ( Get all users )
+cat /etc/group       ( Get all groups )
+sudo usermod -aG docker ravi   (Add user ravi to the group Docker)
