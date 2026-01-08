@@ -1,0 +1,7 @@
+scp /tmp/index.html natasha@ststor01:/home/natasha/
+ssh natasha@ststor01
+mv index.html /usr/src/kodekloudrepos/demo
+cd /usr/src/kodekloudrepos/demo
+sudo git add *
+sudo git commit -m "Added index"
+sudo git push origin master
