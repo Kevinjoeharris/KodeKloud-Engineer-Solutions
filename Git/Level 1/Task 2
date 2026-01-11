@@ -1,0 +1,3 @@
+sudo yum install git
+sudo mkdir -p /opt/demo.git
+sudo git init --bare /opt/demo.git
