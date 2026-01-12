@@ -1,2 +1,0 @@
-docker stop kke-container                   ( Stop first before deleting )
-docker rm  kke-container
