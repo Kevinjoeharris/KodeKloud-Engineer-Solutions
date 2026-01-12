@@ -1,6 +1,5 @@
 Hi Folks,
-I'm Kevin Joe Harris, DevOps Engineer with over 2+ years of experience. I have created this repository to help new DevOps learners to understand core concepts. This repository contains step-by-step solutions for tasks and challenges from KodeKloud Engineer, with a strong focus on Kubernetes, DevOps, and Cloud-native concepts.
-
+I'm Kevin Joe Harris, DevOps Engineer with over 2+ years of experience. I have created this repository to help new DevOps learners to understand core concepts. This repository contains step-by-step solutions for tasks and challenges from KodeKloud Engineer.
 The goal of this repo is to:
 Help learners understand why a solution works, not just what to type
 Serve as a quick reference for common Kubernetes and DevOps scenarios
