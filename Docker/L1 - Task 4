@@ -1,2 +1,0 @@
-docker cp /tmp/nautilus.txt.gpg 41721a7d13a1:/home/    ( source container-id:path)
-docker exec -it 41721a7d13a1 bash                       (Execute something inside container)
