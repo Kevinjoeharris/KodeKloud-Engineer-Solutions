@@ -1,2 +1,0 @@
-kubectl edit deployment/nginx-deployment or kubectl set image deployment/nginx-deployment nginx-container=nginx:latest
-kubectl edit svc nginx-service
