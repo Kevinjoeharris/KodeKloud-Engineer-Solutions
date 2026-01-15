@@ -1,0 +1,36 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: volume-share-datacenter
+spec:
+  containers:
+    - name: volume-container-datacenter-1
+      image: debian:latest
+      command: ["/bin/sh", "-c"]
+      args: ["sleep infinity"]
+      volumeMounts:
+        - mountPath: /tmp/official
+          name: volume-share
+
+    - name: volume-container-datacenter-2
+      image: debian:latest
+      command: ["/bin/sh", "-c"]
+      args: ["sleep infinity"]
+      volumeMounts:
+        - mountPath: /tmp/games
+          name: volume-share
+
+  volumes:
+    - name: volume-share
+      emptyDir: {}
+
+
+kubectl exec -it volume-share-datacenter -c volume-container-datacenter-1 -- bash
+
+cd /tmp/official
+echo "This file is created from container 1" > official.txt
+
+To verify:
+kubectl exec -it volume-share-datacenter -c volume-container-datacenter-2 -- bash
+Cd /tmp/games
+Cat official.txt
