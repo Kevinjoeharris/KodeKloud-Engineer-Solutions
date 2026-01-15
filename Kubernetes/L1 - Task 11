@@ -1,7 +1,0 @@
-touch hehe.yaml
-kubectl get pod webserver -o yaml > hehe.yaml
-vi hehe.yaml
-Change the image tag to latest
-kubectl delete pod webserver
-kubectl apply -f hehe.yaml
-kubectl get pods
