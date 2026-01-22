@@ -1,0 +1,4 @@
+Rename this part
+- configMap:
+    name: redis-config
+  name: config
