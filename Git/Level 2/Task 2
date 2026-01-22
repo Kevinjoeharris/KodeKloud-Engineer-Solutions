@@ -1,0 +1,3 @@
+cd /usr/src/kodekloudrepos/ecommerce
+Sudo git checkout master
+sudo git checkout -b xfusioncorp_ecommerce
