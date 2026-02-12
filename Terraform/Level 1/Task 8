@@ -1,0 +1,4 @@
+resource "aws_ami_from_instance" "nautilus-ec2-ami" {
+  name               = "nautilus-ec2-ami"
+  source_instance_id = aws_instance.ec2.id
+}
