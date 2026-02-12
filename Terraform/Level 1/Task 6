@@ -1,0 +1,5 @@
+resource "aws_eip" "nautilus-eip" {
+    tags = {
+        name = "nautilus-eip"
+    }
+}
