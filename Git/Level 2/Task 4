@@ -1,0 +1,6 @@
+git config --global --add safe.directory /usr/src/kodekloudrepos/media
+sudo git remote add dev_media /opt/xfusioncorp_media.git
+sudo cp /tmp/index.html .
+sudo git add index.html
+sudo git commit -m "Added index"
+sudo git push dev_media
