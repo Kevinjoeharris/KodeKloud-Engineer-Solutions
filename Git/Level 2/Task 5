@@ -1,0 +1,8 @@
+ssh natasha@ststor01
+cd /usr/src/kodekloudrepos/demo/
+git status
+git log
+git revert HEAD
+git add .
+git commit -m " revert demo "
+git log
