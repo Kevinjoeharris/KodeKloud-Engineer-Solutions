@@ -1,1 +1,2 @@
-Coming soon
+yum install git
+git init /opt/blog.git
