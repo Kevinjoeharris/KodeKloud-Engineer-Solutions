@@ -1,0 +1,9 @@
+kubectl get pods
+kubectl get configmap
+kubectl describe configmap nginx-config
+touch pod.yaml
+kubectl get pod nginx-phpfpm -o yaml  > pod.yaml
+Edit the pod.yaml file and changed ‘/usr/share/nginx/html’ to ‘/var/www/html’ in VolumeMount
+kubectl delete pod nginx-phpfpm
+kubectl apply -f pod.yaml
+kubectl cp  /home/thor/index.php  nginx-phpfpm:/var/www/html -c nginx-container
