@@ -1,0 +1,3 @@
+resource "aws_sns_topic" "datacenter-notifications" {
+  name = "datacenter-notifications"
+}
