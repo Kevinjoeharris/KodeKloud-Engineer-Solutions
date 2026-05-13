@@ -1,0 +1,4 @@
+kubectl edit service/lamp-service - > Change the targetport and port
+Change env variable names to
+MYSQL_HOST to HOST_MYSQL
+MYSQL_PASSWORD to MYSQL_PASSWORDS
