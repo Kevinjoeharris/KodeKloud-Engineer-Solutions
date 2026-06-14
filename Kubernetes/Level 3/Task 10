@@ -1,0 +1,6 @@
+kubectl edit deploy python-deployment-datacenter
+Edit the image name
+kubectl restart deployment python-deployment-datacenter
+
+kubectl edit svc service/python-service-datacenter
+Edit the target port
